@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/buttonSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_7sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/custom_corner_shape"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/product_sans_regular"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:text="@string/hoi_khi_xoa_ghi_chu"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"/>
+    <Button
+        android:id="@+id/delete_no"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:text="No"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/custom_no_button"/>
+    <Button
+        android:id="@+id/delete_yes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:text="Yes"
+        android:layout_margin="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:background="@drawable/custom_yes_button"/>
+</LinearLayout>
